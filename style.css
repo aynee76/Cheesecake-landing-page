@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(img/main.png);
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.herobg {
+    position: absolute;
+    right: 0;
+    top: -30rem;
+}
