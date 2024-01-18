@@ -6,16 +6,26 @@
 
 .hero {
     background-image: url(img/main.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 1rem;
 }
 
 main {
@@ -27,5 +37,5 @@ main {
 .herobg {
     position: absolute;
     right: 0;
-    top: -30rem;
+    /* top: -30rem; */
 }
